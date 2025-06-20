@@ -6,4 +6,19 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 python-multipart==0.0.6
 httpx==0.25.2
+aiofiles==23.2.1
+
+# Azure SDK
+azure-cognitiveservices-speech==1.34.0
+azure-cognitiveservices-vision-customvision==3.1.0
+azure-storage-blob==12.19.0
+
+# 데이터베이스
+
+psycopg2-binary==2.9.9
+
+# 기타 유틸리티
 python-dotenv==1.0.0
+Pillow==10.1.0
+numpy==1.25.2
+pandas==2.1.4
